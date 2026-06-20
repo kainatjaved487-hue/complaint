@@ -161,11 +161,9 @@ define('BASE_URL', 'http://localhost/complaint/');
 ```
 
 ### Step 5: Seed Default Data
-Run these scripts in your browser (one time only):
+Run this script in your browser (one time only) to populate default departments and categories:
 ```
 http://localhost/complaint/seed_data.php
-http://localhost/complaint/run_migration.php
-http://localhost/complaint/register_core_admin.php
 ```
 
 ### Step 6: Launch the Application
