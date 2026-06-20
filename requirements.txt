@@ -1,0 +1,174 @@
+Project Proposal
+
+Digital Complaint Management System (DCMS)
+
+
+---
+
+✅ Purpose
+
+The purpose of the Digital Complaint Management System (DCMS) is to provide a centralized, web-based platform for organizations and universities to register, track, assign, and resolve complaints digitally.
+
+Instead of using manual registers or emails, the system allows users to submit complaints online, while administrators and departments can manage them efficiently with full Role-Based Access Control (RBAC).
+
+The project focuses on automation, transparency, security, and scalability using a dynamic database-driven architecture.
+✅ Key Features
+
+Dynamic Role Management (No hardcoded roles).
+Database-driven Sidebar & Menus.
+Online Complaint Registration.
+Department Assignment System.
+Complaint Status Tracking (Pending, In-Process, Resolved, Closed).
+File Attachments with Complaints.
+Action Logs for Every Complaint.
+Auto Generated Breadcrumbs & Page Titles.
+Dark Mode Support using AdminLTE.
+Secure Login with PDO.
+
+
+✅ Role Based Access
+
+The system uses RBAC (Role Based Access Control) to ensure users only access authorized pages.
+Example roles include:
+
+Super Admin – Full system control, manage roles, users, pages.
+
+Department Officer – View and process assigned complaints.
+
+Staff – Update complaint status and remarks.
+
+User / Student – Submit complaints and track progress.
+
+
+Permissions are managed dynamically using the role_access table, so no role or menu is hardcoded in the system.
+
+
+---
+
+✅ Technology Stack
+
+Frontend:
+
+AdminLTE v4
+
+Bootstrap 5
+
+HTML5
+
+
+Backend:
+
+Core PHP (PDO)
+
+
+Database:
+
+MySQL
+
+
+Server:
+
+Apache (XAMPP)
+
+
+Security:
+
+PDO Prepared Statements
+
+Session Management
+
+
+
+
+---
+
+✅ Data Flow
+
+1. User logs into the system.
+
+
+2. System checks role permissions.
+
+
+3. User submits a complaint form.
+
+
+4. Complaint is stored in database.
+
+
+5. Department is assigned automatically or manually.
+
+
+6. Officer reviews complaint.
+
+
+7. Status and logs are updated.
+
+
+8. User can track complaint progress.
+
+
+9. Admin monitors reports and activity.
+
+
+
+This ensures smooth and secure flow of complaint data across the organization.
+
+
+---
+
+✅ Analysis
+
+The Digital Complaint Management System reduces manual work and improves communication between users and departments.
+
+It provides:
+
+Faster complaint resolution.
+
+Better transparency.
+
+Centralized record keeping.
+
+Secure role-based access.
+
+Scalable enterprise architecture.
+
+
+Using the Universal Skeleton Project structure, the system remains dynamic, flexible, and reusable for other organizational systems in the future.
+
+
+---
+
+✅ University Resources Required
+
+🔹 During Development
+
+Computer Lab with Internet.
+
+XAMPP Server Environment.
+
+PHP & MySQL Support.
+
+AdminLTE Template.
+
+Supervisor Guidance.
+
+Testing Devices (PC / Laptop).
+
+
+
+---
+
+🔹 After Development
+
+Hosting Server (Local or Cloud).
+
+Database Server (MySQL).
+
+Maintenance Support.
+
+Training for Users.
+
+Backup Storage.
+
+
