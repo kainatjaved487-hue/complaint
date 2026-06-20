@@ -1,0 +1,22 @@
+# Uploads (user-generated content)
+uploads/complaints/*
+!uploads/complaints/.gitkeep
+
+# Debug & utility scripts
+debug_*.php
+check_*.php
+list_*.php
+describe_*.php
+fix_*.php
+test_*.php
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# Scratch files
+scratch/
